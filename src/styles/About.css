@@ -1,0 +1,126 @@
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.content-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 800px;
+  height: 530px;
+  background-color: #3a3c5b;
+  border-radius: 10px;
+}
+
+.header-info {
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.title-name-creator h2 {
+  font-size: 2.2rem;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.main-info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  gap: 2rem;
+}
+
+.description-container {
+  width: 60%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.description-container p {
+  margin-bottom: 1rem;
+}
+
+.icons-technology-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: left;
+  gap: 0.5rem;
+}
+
+.fa-square-js {
+  color: #f0db4f;
+  font-size: 1.5rem;
+}
+
+.fa-react {
+  color: #61dafb;
+  font-size: 1.5rem;
+}
+
+.fa-python {
+  color: #3776ab;
+  font-size: 1.5rem;
+}
+
+.fa-database {
+  color: #00758f;
+  font-size: 1.5rem;
+}
+
+.link-pokeapi {
+  color: #f0db4f;
+  text-decoration: dashed;
+}
+
+.bottom-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.description-container h3 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-align: left;
+}
+
+.bottom-info h3 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-align: center;
+}
+
+.icons-contact-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.linkedin-icon {
+  color: #0e76a8;
+  font-size: 2rem;
+}
+
+.github-icon {
+  color: #f0db4f;
+  font-size: 2rem;
+}
