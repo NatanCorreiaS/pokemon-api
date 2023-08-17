@@ -62,7 +62,7 @@ main {
 .button-slide-container {
   position: absolute;
   top: 25%;
-  right: 0%;
+  right: 1%;
   padding: 0.5rem;
   background-color: #6572a4;
   border-radius: 5px;
