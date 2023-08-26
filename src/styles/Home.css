@@ -169,3 +169,22 @@ main {
   background-color: red;
   color: white;
 }
+
+@media (max-width: 450px) {
+  .title-main h2 {
+    font-size: 1.5rem;
+  }
+
+  .pokemon-container {
+    width: 350px;
+    border-radius: none;
+  }
+
+  .button-slide-container {
+    display: none;
+  }
+
+  .slide-container {
+    display: none;
+  }
+}
