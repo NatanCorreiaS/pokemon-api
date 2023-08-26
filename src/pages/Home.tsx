@@ -123,7 +123,7 @@ function Home() {
       </div>
       <section className="title-main">
         <h2>
-          <span>API Pokemon </span>- v0.2
+          <span>API Pokemon </span>- v0.2.2
         </h2>
       </section>
       <section className="pokemon-container">
