@@ -137,9 +137,16 @@
   .img-creator-container img {
     height: 150px;
   }
+  .img-creator-container {
+    margin-left: 0.5rem;
+  }
   .title-name-creator h2 {
     font-size: 1.8rem;
   }
+  .description-container {
+    margin-right: 0.5rem;
+  }
+
   .description-container h3 {
     font-size: 1.4rem;
   }
