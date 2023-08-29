@@ -18,6 +18,10 @@ header {
   cursor: pointer;
 }
 
+.logo-container img {
+  height: 50px;
+}
+
 .logo-container h1 {
   font-size: 2.3rem;
 }
@@ -53,7 +57,11 @@ nav ul li:hover {
 
   header .logo-container h1 {
     /* margin-left: 1rem; */
-    font-size: 2rem;
+    font-size: 1.9rem;
+  }
+
+  header .logo-container img {
+    height: 2rem;
   }
 
   header nav {

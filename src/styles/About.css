@@ -125,3 +125,48 @@
   color: #f0db4f;
   font-size: 2rem;
 }
+
+@media (max-width: 450px) {
+  .content-container {
+    width: 90%;
+    height: 700px;
+  }
+  .main-info {
+    gap: 1rem;
+  }
+  .img-creator-container img {
+    height: 150px;
+  }
+  .title-name-creator h2 {
+    font-size: 1.8rem;
+  }
+  .description-container h3 {
+    font-size: 1.4rem;
+  }
+  .description-container p {
+    font-size: 0.9rem;
+  }
+  .fa-square-js {
+    color: #f0db4f;
+    font-size: 1.2rem;
+  }
+
+  .fa-react {
+    color: #61dafb;
+    font-size: 1.2rem;
+  }
+
+  .fa-python {
+    color: #3776ab;
+    font-size: 1.2rem;
+  }
+
+  .fa-database {
+    color: #00758f;
+    font-size: 1.2rem;
+  }
+
+  .bottom-info h3 {
+    font-size: 1.5rem;
+  }
+}

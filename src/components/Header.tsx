@@ -15,7 +15,7 @@ function Header() {
     <header>
       <div onClick={handleLogoClick} className="logo-container">
         <h1>React</h1>
-        <img height={50} src={reactJSLogo} alt="React JS Logo" />
+        <img src={reactJSLogo} alt="React JS Logo" />
       </div>
       <nav>
         <ul>

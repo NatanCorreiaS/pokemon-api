@@ -16,7 +16,7 @@ function About() {
         </div>
         <div className="main-info">
           <div className="img-creator-container">
-            <img height={250} src={natan} alt="" />
+            <img src={natan} alt="" />
           </div>
           <div className="description-container">
             <h3>Quem sou eu?</h3>
