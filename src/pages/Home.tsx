@@ -33,18 +33,6 @@ function Home() {
             data.types[0].type.name + ", " + data.types[1].type.name
           );
         }
-
-        // console.log(data.name);
-        // console.log(data.sprites.front_default);
-        // console.log(data.stats[0].base_stat);
-        // console.log(data.stats[1].base_stat);
-        // console.log(data.stats[2].base_stat);
-        // console.log(data.stats[3].base_stat);
-        // console.log(data.stats[5].base_stat);
-        // console.log(data.types[0].type.name);
-        // if (data.types[1] !== undefined) {
-        //   console.log(data.types[1].type.name);
-        // }
       })
       .catch((error) => {
         alert(
@@ -123,7 +111,7 @@ function Home() {
       </div>
       <section className="title-main">
         <h2>
-          <span>API Pokemon </span>- v0.2.2
+          <span>API Pokemon </span>- v0.3
         </h2>
       </section>
       <section className="pokemon-container">
@@ -132,7 +120,7 @@ function Home() {
         </div>
         <div className="pokemon-main-information">
           <div className="pokemon-img">
-            <img height={250} src={pokemonImg} alt="" />
+            <img src={pokemonImg} alt="" />
           </div>
           <div className="pokemon-description">
             <div className="pokemon-type">Tipo: {pokemonType}</div>
@@ -147,6 +135,19 @@ function Home() {
             <div className="pokemon-speed">Velocidade-base: {pokemonSpeed}</div>
           </div>
         </div>
+      </section>
+      <section className="mobile-input-container">
+        <input
+          placeholder="Digite o nome do pokemon em minúsculo!"
+          value={pokemonNameText}
+          onChange={handlePokemonNameText}
+          type="text"
+          name="mobileInput"
+          id="mobileInput"
+        />
+        <button onClick={searchPokemon} id="mobile-button">
+          Pesquisar
+        </button>
       </section>
     </main>
   );
