@@ -111,7 +111,7 @@ function Home() {
       </div>
       <section className="title-main">
         <h2>
-          <span>API Pokemon </span>- v0.3
+          <span>API Pokemon </span>- v1.0
         </h2>
       </section>
       <section className="pokemon-container">
