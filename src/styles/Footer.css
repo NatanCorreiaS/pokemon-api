@@ -11,9 +11,12 @@ footer h4 {
 }
 
 @media (max-width: 450px) {
-  footer {
+  body {
+    overflow-y: auto;
+  }
+  /* footer {
     position: absolute;
     bottom: 0%;
     width: 100%;
-  }
+  } */
 }

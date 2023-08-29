@@ -52,11 +52,11 @@ nav ul li:hover {
   }
 
   header .logo-container h1 {
-    margin-left: 1rem;
+    /* margin-left: 1rem; */
     font-size: 2rem;
   }
 
   header nav {
-    margin-left: 3rem;
+    margin-left: 2rem;
   }
 }
